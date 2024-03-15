@@ -1,0 +1,91 @@
+.gradient-background {
+    
+    background: linear-gradient(300deg, #0066ff, #001aff, #00005a);
+    
+    background-size: 180% 180%;
+    
+    animation: gradient-animation 15s ease infinite;
+
+}
+  
+@keyframes gradient-animation {
+    
+    0% {
+        
+        background-position: 0% 50%;
+    
+    }
+    
+    50% {
+        
+        background-position: 100% 50%;
+    
+    }
+    
+    100% {
+        
+        background-position: 0% 50%;
+    
+    }
+
+}
+
+@font-face {
+
+    font-family: Modern-Sonic-Font;
+
+    src: url(./fonts/NiseSegaSonic.TTF);
+
+}
+
+.Modern-Sonic-Font-1 {
+
+    font-family: Modern-Sonic-Font;
+
+    color: #eede00;
+
+    font-size: 50px;
+
+    display:inline;
+
+}
+
+.Modern-Sonic-Font-2 {
+
+    font-family: Modern-Sonic-Font;
+
+    color: #ee0000;
+
+    font-size: 45px;
+
+    font-weight: 900;
+
+}
+
+.Modern-Sonic-Font-3 {
+
+    font-family: Modern-Sonic-Font;
+
+    color: #00e1ff;
+
+    font-size: 25px;
+
+}
+
+@font-face {
+
+    font-family: Genesis-Font;
+
+    src: url(./fonts/Sonic-Genesis-Megadrive-Font.ttf);
+
+}
+
+.Genesis-Font {
+
+    font-family: Genesis-Font;
+
+    color: #fffb25;
+
+    font-size: 30px;
+
+}
